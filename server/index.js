@@ -16,6 +16,7 @@ app.use(
     origin: [
       "http://localhost:3000", 
       "http://127.0.0.1:3000",
+      "https://client-expense-3.onrender.com/"
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
